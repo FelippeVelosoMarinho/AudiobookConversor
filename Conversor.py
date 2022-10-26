@@ -2,7 +2,7 @@
 import PyPDF2
 import pyttsx3
 
-file = r"Proposta.pdf" #caminho do arquivo
+file = r"test.pdf" #caminho do arquivo
 pdf = open(file, 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdf)
 pageObj = pdfReader.getPage(0)
